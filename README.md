@@ -28,4 +28,3 @@ This project implements a simple text generation pipeline using the DeepSeek-R1-
 
 The project contains a simple script that demonstrates text generation. You can modify the `messages` list to ask different questions.
 
-Here’s a sample code snippet:
