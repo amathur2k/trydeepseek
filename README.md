@@ -28,3 +28,4 @@ This project implements a simple text generation pipeline using the DeepSeek-R1-
 
 The project contains a simple script that demonstrates text generation. You can modify the `messages` list to ask different questions.
 
+Only the 1.5B model works on my machine. The other models are too large to run on my machine. I have 6GB of GPU RAM.

@@ -2,7 +2,9 @@
 from transformers import pipeline
 
 messages = [
-    {"role": "user", "content": "How to catch a data scientist?"},
+    {"role": "user", "content": "How to find a data scientist?"},
 ]
-pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B")
+#pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B")
+#pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-14B")
+pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
 print(pipe(messages))
