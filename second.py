@@ -6,5 +6,5 @@ messages = [
 ]
 #pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B")
 #pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-14B")
-pipe = pipeline("text-generation", model="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+pipe = pipeline("text-generation", model="deepseek-ai/deepseek-coder-1.3b-instruct")
 print(pipe(messages))
